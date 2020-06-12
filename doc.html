@@ -1,0 +1,584 @@
+<!--
+  Use this file to make your documentation
+
+  Include a link to your homepage like:
+  <a href="index.html">Link to your homepage</a>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DWW - Part 3: Week 3</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="doc.css" />
+    <!-- use doc.css to style your documentation -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+  </head>
+
+  <body>
+    <header></header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">HitchiGo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-lg-auto">
+            <a class="nav-item nav-link" href="/index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+            <a id="docu" class="nav-item nav-link active" href="/doc.html"
+              ><b class="navi">DOCUMENTATION</b></a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="sec0">
+        <div class="container">
+          <h2>
+            What is HitchiGo?
+          </h2>
+          <h3>
+            HitchiGo is an application that allows users to propose or to ask
+            for a <b>ride</b> as Hitchhiker. Ready to hop on board ?
+          </h3>
+          <h2>
+            Why this idea?
+          </h2>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p>
+                Initialy, this idea comes from a glance at the street during the
+                summer holiday period. I noticed that a lot of people tried to
+                get the attention from drivers that could get them to their
+                <b>destination</b>.
+              </p>
+              <p>
+                Surprisingly, I never saw a driver pull over to
+                <b>help hitchhikers</b>... I wondered a lot about hicthhikng,
+                more precisely about how to be <b>efficient</b> in this area and
+                the way people perceived this way of travelling. From then, I
+                decided to help hitchhikers and discover more about this
+                practice. I picked someone up to hitchhike !
+              </p>
+            </div>
+
+            <div class="col-md-6">
+              <img
+                src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2FHitchHiker.jpeg?v=1572448951531"
+                class="img-fluid"
+                alt="HitchHiker.jpeg"
+              />
+            </div>
+          </div>
+        </div>
+
+        <hr class="sep" />
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img
+                src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Fcar-drive-driver-2608372.jpg?v=1572902494795"
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="col-md-6">
+              <p>
+                The chat we had was very interesting. The moment felt like a
+                true
+                <b>social experience</b> and I was able to collect information
+                about hitchhiking. This particular person was from Poland and
+                decided to travel through Europe to get to Marseille.
+                Eventually, I asked the <b>"big question"</b> about whether or
+                not people were willing to take him in their cars.
+              </p>
+
+              <p>"Not really", he told me</p>
+            </div>
+          </div>
+        </div>
+
+        <hr class="sep" />
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p>
+                What could be possibly wrong ? A nice person like that shouldn't
+                have any problem <b>getting help</b> from drivers. He later
+                explained to me that people were hesitating to "take the big
+                leap" because of <b>safety</b>, the "cost of opportunity", the
+                inadequate place for stopping or even because they saw someone
+                too late. However, in the end, this hitchhikers told me that he
+                always had a great time <b>meeting new people</b> and keep in
+                touch with them.
+              </p>
+            </div>
+
+            <div class="col-md-6">
+              <img
+                src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Froad1.jpeg?v=1572941075760"
+                class="img-fluid"
+                alt="HitchHiker.jpeg"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <h2>
+            It is from this moment that I identified the needs of both parts
+            (hitchhikers and drivers):
+          </h2>
+
+          <div class="card-deck">
+            <div class="card">
+              <img
+                src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Flock.svg?v=1572943200861"
+                class="cardimg"
+                alt="smartphone.png"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Create a feeling of Safety</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Fnavigation.png?v=1572431116240"
+                class="cardimg"
+                alt="smartphone.png"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Create precise location (hubs)</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Fconnect.svg?v=1572940316472"
+                class="cardimg"
+                alt="smartphone.png"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Connect both demand an supply</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Fpaintpoints.svg?v=1572940400776"
+                class="cardimg"
+                alt="smartphone.png"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Kill pain points in the hitchhiking process
+                </h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Fgroup.svg?v=1572940521571"
+                class="cardimg"
+                alt="smartphone.png"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Create social bonds between users</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <h2>
+              What does the app look like ?
+            </h2>
+            <p>Please find below an overview of HitchiGo's user interface</p>
+            <p class="videot">
+              Hitchhiker's interface
+            </p>
+            <video controls class="video">
+              <source
+                src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2FDWW1%20-%20small.mov?v=1572439005627"
+                type="video/mp4"
+              />
+            </video>
+            <p class="videot">
+              Driver's interface
+            </p>
+            <video controls class="video">
+              <source
+                src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2FDWW2%20-%20small.mov?v=1572438633283"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+
+          <div class="container">
+            <h2>
+              Technological requirements to launch HitchiGo
+            </h2>
+            <li>
+              The app requires a GPS service, we could use
+              <a href="https://www.openstreetmap.org/">"Open Street Map"</a>,
+              the open source geographical database.
+            </li>
+            <li>Support IOS and Android system.</li>
+            <li>
+              The development and more importantly the operation of HitchiGo
+              implies the use of web services, more precisely of a database. We
+              recommend you tu use
+              <a href="https://aws.amazon.com/fr/amplify/"> AWS amplify</a>
+            </li>
+            <li>Web reporting to create the analytics</li>
+            <li>
+              HitchiGo's communication features (Call and Messages) necessitate
+              the use of Voice Over IP services (VOIP)
+            </li>
+
+            <h2>
+              Features
+            </h2>
+          </div>
+
+          <div class="container">
+            <div class="card-deck">
+              <div class="card">
+                <img
+                  src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Fsmartphone.png?v=1572433461714"
+                  class="cardimg"
+                  alt="smartphone.png"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Splash Screen</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Fnavigation.png?v=1572431116240"
+                  class="cardimg"
+                  alt="navigation.png"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Navigation</h5>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Froute.svg?v=1572436346991"
+                  class="cardimg"
+                  alt="route.svg"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Native Map</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-deck">
+              <div class="card">
+                <img
+                  src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Fbrowser.svg?v=1572437840036"
+                  class="cardimg"
+                  alt="browser.svg"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Profile Page</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Fanalytics.svg?v=1572437163959"
+                  class="cardimg"
+                  alt="analytics.svg"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Analytics</h5>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Fsignup.svg?v=1572437703335"
+                  class="cardimg"
+                  alt="signup.svg"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Sign-up and Log-in</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-deck">
+              <div class="card">
+                <img
+                  src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Fbooking.svg?v=1572437576363"
+                  class="cardimg"
+                  alt="booking.svg"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Booking System</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Fnotification.svg?v=1572435900697"
+                  class="cardimg"
+                  alt="notification.svg"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Push Notifications</h5>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Fmessages.svg?v=1572436705796"
+                  class="cardimg"
+                  alt="messages.svg"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Instant Messages</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <h2>
+              Why HitchiGo is unique?
+            </h2>
+            <p>
+              HitchiGo is an innovative approach of travelling. Instead of an app connecting people to drive
+              them from point A to B, we create an experiential journey. We
+              definitely enhance the way people are consumming the HitchHiking
+              by supporting them to create a connection with more people and by
+              that offer them a more pleasant experience. As a differenciation,
+              the app also motivate either the Drivers and HitchHikers to pursue
+              and reach goals to gain rewards and participate to the ecological
+              footprint.
+            </p>
+            <h2>
+              What differs HitchiGo from normal carpooling applications?
+            </h2>
+            <p>
+              HitchiGo is a platform for both drivers and hitchhikers without
+              charging any one of these actors. Hitchhikers do not necessarily
+              pay the drivers. Instead, drivers can get an unforgettable
+              experience and "Green Points," which can be used for discounts.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="sec1">
+        <div class="container">
+          <h2 style="text-align:center">
+            Going Further...
+          </h2>
+          <h2>
+            Services Offered
+          </h2>
+          <p>
+            The service offered is a service of car sharing focus on
+            hitchhikers.
+          </p>
+          <p>
+            This will take place on an smartphone application. This latter will
+            have some features such as:
+          </p>
+          <ul>
+            <li>A GPS</li>
+            <li>A points ranking</li>
+            <li>A rewards wall</li>
+          </ul>
+          <p>
+            So, the application is in two parts, one is for hitchhikers and the
+            other is for drivers. The driver use its application as a simple
+            GPS. When a hitchhiker want to use this service, he ask, on the
+            application, to be taken by a driver that is on the same route than
+            him. Then, a notification pop-up on the driver's screen that inform
+            him that a hitchhiker is available on its road and if he wants to
+            take him. If yes, the path showed on the GPS is modified to follow
+            the hitchhiker's route.
+          </p>
+          <h2>
+            Identity
+          </h2>
+
+          <!--RESPONSIVE GALLERY FOR OUR IDENTITY-->
+
+          <div class="row">
+            <div class="responsive">
+              <div class="gallery">
+                <img
+                  src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Fsmartmockups_k2it158s.jpg?v=1572774008480"
+                  alt="Cinque Terre"
+                  width="600"
+                  height="400"
+                />
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <img
+                  src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Fid%20-%20mockup?v=1572621652858"
+                  alt="Cinque Terre"
+                  width="600"
+                  height="400"
+                />
+              </div>
+            </div>
+
+            <div class="responsive">
+              <div class="gallery">
+                <img
+                  src="https://cdn.glitch.com/901274b8-0a7c-44fd-b892-fc1448201a66%2Fsmartmockups_k2itafpu.jpg?v=1572774440032"
+                  alt="Cinque Terre"
+                  width="600"
+                  height="400"
+                />
+              </div>
+            </div>
+          </div>
+
+          <h2>
+            Benchmark
+          </h2>
+          <ul>
+            <li>
+              Blablacar, <a href="https://www.blablacar.fr/">Website</a>,
+              competitor but have to pay.
+            </li>
+            <li>
+              OpenStreetMap, <a href="https://www.waze.com/fr/">Website</a>, for
+              the map (opensource).
+            </li>
+            <li>
+              Waze, <a href="https://www.waze.com/fr/">Website</a>, for the GPS
+              part.
+            </li>
+            <li>
+              Carpooling,
+              <a href="https://www.europe-carpooling.fr/">Website</a>, for the
+              sharing.
+            </li>
+            <li>
+              HitchHiker,
+              <a href="https://apps.apple.com/us/app/hitchhiker/id1193063615"
+                >Website</a
+              >, for the HitchHiker.
+            </li>
+            <li>
+              Waze,
+              <a
+                href="https://wazeopedia.waze.com/wiki/France/Points_et_Classement"
+                >Website</a
+              >, for the ranking point.
+            </li>
+            <li>
+              WAG, <a href="https://www.weactforgood.com">Website</a>, for the
+              environmental gamification side.
+            </li>
+            <li>
+              Ecosia, <a href="https://info.ecosia.org/">Website</a>, for the
+              green aspect of the project.
+            </li>
+            <li>
+              Geocache, <a href="https://www.geocaching.com/play">Website</a>,
+              for the use of GPS and the incredible intenational community and
+              gamification behind it.
+            </li>
+            <li>
+              Closca,
+              <a href="https://closca.com/pages/closca-water-app">Website</a>,
+              for the "green counter", the idea "together we saved".
+            </li>
+          </ul>
+          <h2>
+            References
+          </h2>
+          <ul>
+            <li>
+              Jane McGonigal, 2010, Gaming can make a better world,
+              <a
+                href="https://www.ted.com/talks/jane_mcgonigal_gaming_can_make_a_better_world"
+                >Ted</a
+              >.
+            </li>
+            <li>
+              Spohrer James C, Kieliszwski, Cheryl A, Maglio Paul P, 2010,
+              Handbook of Service Science, Springer
+            </li>
+            <li>
+              Safety for HitchHikers,
+              <a href="https://hitchwiki.org/en/Hitchhiker%27s_safety">Wiki</a>.
+            </li>
+            <li>
+              KPMG study on mobility (2030)
+              <a
+                href="https://assets.kpmg/content/dam/kpmg/xx/pdf/2019/02/mobility-2030-transforming-the-mobility-landscape.pdf"
+                >Especially relevant for the mobility as a service side</a
+              >.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+</html>

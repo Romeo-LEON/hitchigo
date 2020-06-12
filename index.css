@@ -1,0 +1,208 @@
+/* use this file to style your homepage */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.navbar {
+  background: white !important;
+  transition: 0.5s;
+  box-shadow: 0 19px 178px rgba(0, 0, 0, 0.15), 0 15px 15px rgba(0, 0, 0, 0.2);
+}
+.navbar a {
+  margin: 0 10px;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(96, 194, 80, 1);
+  background: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.8);
+  background: w;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: rgba(96, 194, 80, 1);
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:visited {
+  color: rgb(96, 194, 80);
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+banner {
+  height: 100vh;
+}
+#docu{
+  display:block;
+  background-color:rgba(96, 194, 80, 1);
+  border-radius:8px;
+}
+#docu:hover{  
+  color:white;
+}
+#sec0 {
+  background: #F8F8F8;
+  box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.2); /* Did not like the green here ?, I added inner shadow, i think it adds some "contrast"...*/
+}
+
+#sec2{
+  background: #F8F8F8;
+  box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.2); 
+}
+.subtitle {
+  margin: 100px auto 0;
+  font-size: 2rem;
+  color: #64c056;
+}
+.jumbotron {
+  background: transparent;
+  padding-top: 0;
+}
+.boutonGoogle {
+  width: 40%;
+  margin: 5% auto;
+}
+.boutonApple {
+  width: 40%;
+  margin: 0 auto 0 2%;
+}
+.first {
+  margin-top: 10vh;
+}
+.colleft {
+  width: 50%;
+}
+.colright {
+  width: 50%;
+  margin: 0 auto;
+  float: right;
+}
+.title {
+  margin: 0 auto 50px;
+  font-size: 2.3rem;
+  color: rgba(96, 194, 80, 1);
+  font-weight: 600;
+}
+.img {
+  max-height: 100%;
+  width: 55%;
+  display: block;
+  margin: 0 auto;
+}
+p {
+  font-size: 1.15rem;
+}
+.card-deck {
+  margin: 100px 0;
+}
+.cardimg {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+.card-img-top {
+  padding: 10px;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .colleft,
+  colright {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .img {
+    width: 100%;
+    margin-top: 5vh;
+  }
+  .first {
+    margin-top: 5vh;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+
+header {
+  position: relative;
+  height: 230px;
+  background-color: #64c056;
+  clip-path: polygon(0 0, 200% 0, 0 100%, 0 calc(100% - 6vw));
+}
+
+footer {
+  position: relative;
+  height: 130px;
+  background-color: #64c056;
+  transform: scaleY(-1);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6vw));
+}
+
+.card {
+  border-style: none;
+  box-shadow: 0 9px 178px rgba(0, 0, 0, 0.07), 0 15px 12px rgba(0, 0, 0, 0.07);
+}
+
+.process {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  transition: all 0.25s ease-in-out;
+}
+
+@media (max-width: 576px) {
+  .process {
+    width: 70%;
+  }
+}
+
+.process:hover {
+  transform: scale(1.05);
+}
+
+.processtext {
+  text-align: center;
+  margin-top: 75px;
+}
+
+.steps {
+  margin-top: -50px;
+}
+
+.footertext {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-bottom: -100px;
+  padding: 28px;
+  transform: scaleY(-1);
+}
+
+.pillars{
+  font-size:46px;
+}
+
+.guarantee{
+  font-size:46px;
+}
+
+.stepstext{
+  font-size:46px;
+}
